@@ -93,7 +93,7 @@ public class TFidFMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 				"whereas", "whereby", "wherein", "whereupon", "wherever", "whether", 
 				"which", "while", "whither", "who", "whoever", "whole", "whom", "whose", 
 				"why", "will", "with", "within", "without", "would", "yet", "you", "your", 
-				"yours", "yourself", "yourselves", "the"};
+				"yours", "yourself", "yourselves", "the", "no"};
 		
 		for(int i=0; i < string.length; i++)
 		{
